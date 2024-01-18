@@ -1,0 +1,51 @@
+.sideContainerIcon {
+  
+  width: 30px;
+  
+  
+}
+
+.imageIconUL {
+  list-style-type: none !important;
+  padding: 0px;
+}
+
+.imageIconUL li{ 
+ 
+  border: 1px solid #000;
+  padding: 10px;
+  cursor: pointer;
+  border-collapse: collapse;
+  margin-top: 10px;
+ 
+  transition: transform .5s; /* Animation */
+  user-select: none;
+
+}
+
+
+
+.imageIconUL li:hover{ 
+  transform: scale(1.1);
+  box-shadow: 2px 4px #e7e7e7;
+ }
+
+.sample-canvas {
+  height: 100%;
+}
+
+.EditorClassAdded {
+  display: flex !important;
+  flex-direction: row;
+}
+
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .EditorClassAdded {
+    flex-direction: column;
+  }
+  .mobileView {
+    width: 100% !important;
+  }
+}

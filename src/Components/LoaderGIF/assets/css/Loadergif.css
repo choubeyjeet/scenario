@@ -1,0 +1,12 @@
+#loader{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000077;
+  background-repeat: no-repeat;
+  background-size: 8%;
+  background-position: 50% 50%;
+  background-image: url("https://superstorefinder.net/support/wp-content/uploads/2018/01/orange_circles.gif");
+}
